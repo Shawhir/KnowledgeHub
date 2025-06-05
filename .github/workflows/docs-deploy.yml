@@ -1,0 +1,23 @@
+name: Build and deploy documentation
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, Linux]
+    container: zrh-dreg-sp-1.esri.com/dh_proxy/python:3.13-alpine
+
+    environment:
+      name: page
+      url: https://qawebgis.esri.com/pages/zurich-r-d-center/ct_test/
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements.txt
+      - run: mkdocs build
+      - uses: WebGIS/actions-publish-pages@v1
+        with:
+          path: site

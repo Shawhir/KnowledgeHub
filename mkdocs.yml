@@ -1,0 +1,50 @@
+site_name: GLTF Manifesto
+site_url: https://devtopia.esri.com/pages/zurich-r-d-center/CT_Test/
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  palette:
+  - scheme: default
+    primary: blue
+    accent: cyan
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    primary: deep orange
+    accent: lime
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.details
+
+
+
+nav:
+  - Introduction: introduction.md
+  - Asset Structure: asset_structure.md
+  - File Format: file_format.md
+  - Coordinate System: coordinate_system.md
+  - Detail Levels: detail_levels.md
+  - Materials and Textures: materials_and_textures.md
+  - Materials and Group Names: materials_and_group_names.md
+  - Animation: animation.md
+  - Texture Files: texture_files.md
+  - Texture Map Examples: texture_map_examples.md
+  - Level of Detail: level_of_detail.md
+  - LOD Standards and Metadata: lod_standards_and_metadata.md
+  - Directory Structure: directory_structure_example.md
+  - Repository Structure: repository_structure_example.md
+  - Index: bits_and_pieces.md
+
