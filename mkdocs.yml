@@ -32,7 +32,7 @@ markdown_extensions:
 
 
 nav:
-  - Introduction: introduction.md
+  - Introduction: index.md
   - Asset Structure: asset_structure.md
   - File Format: file_format.md
   - Coordinate System: coordinate_system.md
