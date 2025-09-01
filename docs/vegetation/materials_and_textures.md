@@ -2,14 +2,7 @@
 # Materials and Textures 
 
 ### General Overview
-This Spec generalises the 3D models appearances, so after, each category
-(vegetation, transportation, etc) will get their own additional
-specification. So for now use this as an overall guide.
-
-- Material names follow \<base_name\>, plus suffixes as described in the
-  section **“Asset Structure”.**
-
-- Do not use real logos or branding on any model
+This Manual focuses on the appearances of 3D trees, however more information on the vegetation pipeline can be found in the Index.  Material names follow <base_name>, plus suffixes as described in the section “Asset Structure”.
 
 - All map types will use same UV Set.
 
@@ -34,7 +27,7 @@ specification. So for now use this as an overall guide.
 
     - Otherwise: JPEG, 85% quality
 
-- Don’t apply any color profiles - SRGB color space
+- Don’t apply any color profiles - SRGB color space / where are we with this now
 
 - Leave adequate spacing between texture patches in order to not clash
   with texture wrap or mipmapping effects.
@@ -43,7 +36,7 @@ specification. So for now use this as an overall guide.
 
 
 <div style="text-align: center;">
-  <img src="../images/image20.png" style="width: 80%;" />
+  <img src="../../images/image20.png" style="width: 80%;" />
 </div>
 
 

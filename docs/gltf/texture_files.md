@@ -19,7 +19,7 @@ MetallicRoughnessOcclusionmaps:**
   RGBA)
 
 <div style="text-align: center;">
-  <img src="../images/image28.png" style="width: 75%;" />
+  <img src="../../images/image28.png" style="width: 75%;" />
 </div>
   
 - Color Maps can be used with or without Opacity Maps. If Color Maps do not use Opacity maps then
@@ -29,7 +29,7 @@ MetallicRoughnessOcclusionmaps:**
   layer directly or as a mask. This would be saved as a 32 bit png.
 
 <div style="text-align: center;">
-  <img src="../images/image29.png" style="width: 75%;" />
+  <img src="../../images/image29.png" style="width: 75%;" />
 </div>
 
 ---
@@ -39,7 +39,7 @@ MetallicRoughnessOcclusionmaps:**
 - Normal maps simulate surface detail without extra geometry, using RGB to encode direction (X = R, Y = G, Z = B).
 
 <div style="text-align: center;">
-  <img src="../images/image42.png" style="width: 75%;" />
+  <img src="../../images/image42.png" style="width: 75%;" />
 </div>
 
 - Above you can see the left normal - correctly using OpenGL compared to the Right and inverted normal, that uses DirectX.
@@ -89,14 +89,14 @@ We use **OpenGL** as our standard because it's compatible with **glTF**, **WebGL
   Colormap Color value (RGB). This is used to mimic real world reflections on metallic, plastic or any surface in-between.
 
   <div style="text-align: center;">
-  <img src="../images/image31.png" style="width: 75%;" />
+  <img src="../../images/image31.png" style="width: 75%;" />
 </div>
 
 - Above you can see a round table with a simple color, a MetallicRoughness
   texture with a high metallic value and ranging and patterned roughness texture which contributes to the anisotropic surface.
 
   <div style="text-align: center;">
-  <img src="../images/image32.png" style="width: 75%;" />
+  <img src="../../images/image32.png" style="width: 75%;" />
 </div>
 
 - The wooden table above shows the blend between a more complicated
@@ -114,15 +114,15 @@ We use **OpenGL** as our standard because it's compatible with **glTF**, **WebGL
   RGB.
 
   <div style="text-align: center;">
-  <img src="../images/image33.png" style="width: 75%;" />
+  <img src="../../images/image33.png" style="width: 75%;" />
 </div>
 
   <div style="text-align: center;">
-  <img src="../images/image35.png" style="width: 75%;" />
+  <img src="../../images/image35.png" style="width: 75%;" />
 </div>
 
   <div style="text-align: center;">
-  <img src="../images/image37.png" style="width: 75%;" />
+  <img src="../../images/image37.png" style="width: 75%;" />
 </div>
 
 
@@ -136,7 +136,7 @@ We use **OpenGL** as our standard because it's compatible with **glTF**, **WebGL
 
 ## **Occlusion (Beta)**
 
-<img src="../images/image38.jpeg" style="width:6.26806in;height:3.52569in"
+<img src="../../images/image38.jpeg" style="width:6.26806in;height:3.52569in"
 alt="C4D: Optimize Ambient Occlusion Renders in Cinema 4D - Toolfarm" />
 
 - Ambient occlusion (AO) is a shading and rendering technique that can

@@ -7,7 +7,7 @@
   - All Models will have clean and unwrapped/clear UV mapping and **only one texture (atlas) per channel (Color, MetallicRoughness, Normal)**. Where possible – it is best to pack all required textures for each separate geometry together. This will help in lowering resource intensity while giving enough flexibility in the creation of appropriate materials to give a high visual fidelity to the model.
 
 
-![](./images/image1.jpeg){width="100%"}
+![](../../images/image1.jpeg){width="100%"}
 
 - All files belonging to an asset are named the same as the asset, usually suffixed by the LOD and other properties listed in this document. Every word in a file name starts with a capital. Between the model name and the description (LOD) there should be two underscores.
 
@@ -38,7 +38,7 @@
 
   - If all faces of the asset are visible from both sides, only one group and material is needed, and the material should have the **“_doublesided”** suffix
 
-![](./images/image5.jpg){width="100%"}
+![](../../images/image5.jpg){width="100%"}
 
 ## Fixed Color Materials
 
@@ -58,7 +58,7 @@
   - The first group contains the box and flag, and its material is called **“Mailbox”**
   - The second group contains the post. Its material is called **“Mailbox_fixedcolor”**
 
-![](./images/image7.jpg){width="100%"}
+![](../../images/image7.jpg){width="100%"}
 
 ## Colorable: All
 
@@ -76,7 +76,7 @@
 
   - Rotor blade (visible from both sides + not recolored) → **“Eurocopter_H125_Flying_doublesided_fixedcolor”**
 
-![](./images/image8.jpg){width="100%"}
+![](../../images/image8.jpg){width="100%"}
 
 **Material Name**: Eurocopter_H125_Flying_doublesided_fixedcolor  
 **Material Name**: Eurocopter_H125_Flying  
@@ -91,7 +91,7 @@
 
   - Sail: visible from both sides → **“Sailboat_Sails_Up_doublesided”**
 
-![](./images/image9.jpg){width="100%"}
+![](../../images/image9.jpg){width="100%"}
 
 **Material Name**: Sailboat_Sails_Up_doublesided  
 **Material Name**: Sailboat_Sails_Up_fixedcolor  
@@ -106,7 +106,7 @@
 
 - The merged version is placed in a subfolder called **Merged**, which contains a copy of all needed resources (does not reference the parent folder). See section “Directory structure example”.
 
-![](./images/image10.jpg){width="100%"}
+![](../../images/image10.jpg){width="100%"}
 
 ## Mesh and Material Name Consistency
 

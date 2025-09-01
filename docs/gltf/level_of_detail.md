@@ -62,7 +62,7 @@ shaders depending on the LOD version that are being used.
 
 
 <div style="text-align: center;">
-  <img src="../images/image39.png" style="width: 60%;" />
+  <img src="../../images/image39.png" style="width: 60%;" />
 </div>
 
 ### **LOD 0 Map Sizes**

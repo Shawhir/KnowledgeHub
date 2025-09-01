@@ -1,50 +1,81 @@
-site_name: GLTF Manifesto
-site_url: https://devtopia.esri.com/pages/zurich-r-d-center/CT_Test/
+site_name: 3D Visual Standards Hub
+site_url: https://shawhir.github.io/KnowledgeHub/
 
 theme:
   name: material
   features:
-    - navigation.expand
-    - navigation.sections
-    - navigation.top
-    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    # (omit navigation.sections)
+    - toc.integrate   # optional
+
   palette:
-  - scheme: default
-    primary: blue
-    accent: cyan
-    toggle:
-      icon: material/weather-night
-      name: Switch to dark mode
-  - scheme: slate
-    primary: deep orange
-    accent: lime
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.superfences
   - pymdownx.arithmatex
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+extra_css:
+  - stylesheets/extra.css
 
+# optional but nice to keep, it's on by default
+plugins:
+  - search
 
 nav:
-  - Introduction: index.md
-  - Asset Structure: asset_structure.md
-  - File Format: file_format.md
-  - Coordinate System: coordinate_system.md
-  - Detail Levels: detail_levels.md
-  - Materials and Textures: materials_and_textures.md
-  - Materials and Group Names: materials_and_group_names.md
-  - Animation: animation.md
-  - Texture Files: texture_files.md
-  - Texture Map Examples: texture_map_examples.md
-  - Level of Detail: level_of_detail.md
-  - LOD Standards and Metadata: lod_standards_and_metadata.md
-  - Directory Structure: directory_structure_example.md
-  - Repository Structure: repository_structure_example.md
-  - Index: bits_and_pieces.md
+  - Home: index.md
+  - GLTF Manifesto:
+      - Overview: gltf/introduction.md
+      - Asset Structure: gltf/asset_structure.md
+      - File Format: gltf/file_format.md
+      - Coordinate System: gltf/coordinate_system.md
+      - Detail Levels: gltf/detail_levels.md
+      - Materials and Textures: gltf/materials_and_textures.md
+      - Materials and Group Names: gltf/materials_and_group_names.md
+      - Animation: gltf/animation.md
+      - Texture Files: gltf/texture_files.md
+      - Texture Map Examples: gltf/texture_map_examples.md
+      - Level of Detail: gltf/level_of_detail.md
+      - LOD Standards and Metadata: gltf/lod_standards_and_metadata.md
+      - Directory Structure: gltf/directory_structure_example.md
+      - Repository Structure: gltf/repository_structure_example.md
+      - Bits and Pieces: gltf/bits_and_pieces.md
 
+  - Trees & Vegetation:
+      - Overview: vegetation/introduction.md
+      - Asset structure: vegetation/asset_structure.md
+      - File format: vegetation/file_format.md
+      - Coordinate system: vegetation/coordinate_system.md
+      - Detail levels: vegetation/detail_levels.md
+      - Materials and Textures: vegetation/materials_and_textures.md
+      - Material and Group names: vegetation/materials_and_group_names.md
+      - Animation (Beta): vegetation/animation.md
+      - Texture Files: vegetation/texture_files.md
+      - Level Of Detail (LOD): vegetation/level_of_detail.md
+      - LOD System Creation: vegetation/lod_system_creation.md
+      - Directory structure example: vegetation/directory_structure_example.md
+      - Repository structure example: vegetation/repository_structure_example.md
+      - Leaves Optimisation: vegetation/leaves_optimisation.md
+      - Optimising The Trunk: vegetation/optimising_the_trunk.md
+      - Preparing The Billboards: vegetation/preparing_the_billboards.md
+      - Optimising glTF For The Web: vegetation/optimising_gltf_for_the_web.md

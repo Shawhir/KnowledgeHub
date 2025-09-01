@@ -1,0 +1,19 @@
+/* Center and enlarge the icon/title/subtitle in hub cards */
+.grid.cards > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hub-icon {
+  display: block;
+  font-size: 64px; /* increase for larger icon */
+  line-height: 1;
+  margin: 0 auto 0.5rem;
+}
+
+/* Optional: make buttons a touch wider on cards */
+.grid.cards .md-button {
+  min-width: 7.5rem;
+}

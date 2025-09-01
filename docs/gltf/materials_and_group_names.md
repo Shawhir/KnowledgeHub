@@ -25,7 +25,7 @@ Tables):**
    > “Keyboard **Material Name**” -\> Complete\_\_Plastic_Simple
 
 
-![](./images/image22.png){width="100%"}
+![](../../images/image22.png){width="100%"}
 
 If an asset has more than one group, its’ primary keyword is **Main** or
 in other situations to give access to an asset type more easily (like
@@ -39,7 +39,7 @@ Main Example:
 > “Holly Flute Personal Light **Group** Two Name" -\> Emission\_\_Color,  
 > “Holly Flute Personal Light **Material** Two Name" -\> Emission\_\_Color
 
-![](./images/image23.png){width="100%"}
+![](../../images/image23.png){width="100%"}
 
 Asset Type Example:
 
@@ -54,7 +54,7 @@ Asset Type Example:
 An example of an asset with more than one group but which will be
 accessible in a subdirectory like **Table or Seat**:
 
-![](./images/image24.png){width="100%"}
+![](../../images/image24.png){width="100%"}
 
 
 ## Legacy Models
@@ -87,5 +87,5 @@ materials** look like this:
 > – contains wheels, windows, lamps, antenna, license plates, grille and
 mirrors
 
-![](./images/image26.png){width="100%"}
+![](../../images/image26.png){width="100%"}
 

@@ -5,7 +5,7 @@
   Examples:
 
 <div style="text-align: center;">
-  <img src="../images/image11.jpg" style="width: 75%;" />
+  <img src="../../images/image11.jpg" style="width: 75%;" />
 </div>
 
 - It should be noted that any models that are were made before this

@@ -1,23 +1,50 @@
+# 3D Visual Standards Hub
 
-<h1 style="font-size: 0.8rem; margin-bottom: -0.3rem;">Esri R&D Center Zurich</h1>
-<h2 style="font-size: 2.5rem; margin-top: 0;margin-bottom: -0.3rem;">GLTF Manifesto</h2>
-<h1 style="font-size: 0.8rem; margin-bottom: 0rem;">Author: Mark Quinn – (mar11366@esri.com)</h1>
-<h1 style="font-size: 0.8rem; margin-bottom: -0rem;">Reviews: David Koerner, Veronika Landers & Pascal Muller</h1>
-<h1 style="font-size: 0.8rem; margin-bottom: 1rem;">Version: 2022.0</h1>
+!!! info "What is this 3D Visual Standards Hub?"
+    A concise **standards & pipelines guide** for Esri’s cross-product 3D content.
+    It explains **how we author, name, QA, and export** assets so they look and
+    perform consistently in **CityEngine, Web Scene Viewer (glTF), and Unreal/XR**.
 
-# Introduction
-At ESRI we pride ourselves in high quality work and ever improving our
-workflows. A large part of client facing work are our wide range of 3D
-glb assets. **As we are improving our 3D models with PBR Shaders
-alongside the potential set ups for editing specific mesh groups and
-animation; alignment between teams is necessary**. This global alignment
-will for example - communicate and consolidate the importance in
-consistency of **model and material names, the types of textures made
-for PBR Shader, as well as their dimensions and how to approach the
-making of UV textures for these types of models.**
+    **Audience:** Artists, Tech Artists, Vendors (e.g., Ankara), and Engineers  
+    **Scope:** Trees & vegetation, props, **materials (Flexi Textures)**, LODs, naming, export, **QA**  
+    **Outcomes:** Faster reviews, fewer regressions, predictable performance, reusable assets
 
-This general specification should be used as a guide when creating and
-preparing any glb models so they just don’t look great, but if needs be,
-they can be **built using a pipeline that is consistent allowing the
-models to be accessed through different code or interfaces for editing
-in a reliable way.**
+<div class="grid cards" markdown>
+
+-   :material-cube-outline:{ .hub-icon }
+    **GLTF Manifesto**
+    
+    ---
+    
+    _Standards for formats, LODs, materials._
+    
+    [:octicons-arrow-right-24: Open](gltf/introduction){ .md-button .md-button--primary }
+
+-   :material-tree:{ .hub-icon }
+    **Trees & Vegetation Manual**
+    
+    ---
+    
+    _Authoring, metadata, and QA._
+    
+    [:octicons-arrow-right-24: Open](vegetation/introduction){ .md-button }
+
+-   :material-palette-swatch:{ .hub-icon }
+    **Flexi Textures (FXT)**
+    
+    ---
+    
+    _Tintable, variant-ready materials (WIP)._
+    
+    [:octicons-arrow-right-24: Open](materials/flexi_textures){ .md-button }
+
+-   :material-clipboard-check-outline:{ .hub-icon }
+    **Textures QA**
+    
+    ---
+    
+    _Checklist & validation for PBR materials (WIP)._
+    
+    [:octicons-arrow-right-24: Open](materials/qa_materials){ .md-button }
+
+</div>

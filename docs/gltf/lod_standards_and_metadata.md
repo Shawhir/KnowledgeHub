@@ -17,7 +17,7 @@ A significant part of our QA work involves testing LODs for consistency before m
 [David Koerner](mailto:dkoerner@esri.com) has developed a robust set of Python command-line scripts that assist in automating many of these glTF-related tasks.
 
 <div style="text-align: center;">
-  <img src="../images/gif1.gif" style="width: 90%;" />
+  <img src="../../images/gif1.gif" style="width: 90%;" />
 </div>
 
 The example above shows a tree model that has been processed by the glTF Tool, which automatically packs all LODs into a single glTF asset. The tool supports a broader range of functionality also.

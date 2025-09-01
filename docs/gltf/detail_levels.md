@@ -34,12 +34,12 @@
   	These LODs will have different tri counts depending on complexity.
 
 <div style="text-align: center;">
-  <img src="../images/image14.jpeg" style="width: 100%;" />
+  <img src="../../images/image14.jpeg" style="width: 100%;" />
 </div>
 
 ## Extreme Simple
 <div style="text-align: center;">
-  <img src="../images/image15.png" style="width: 75%;" />
+  <img src="../../images/image15.png" style="width: 75%;" />
 </div>
 
 
@@ -73,7 +73,7 @@
 
 
 <div style="text-align: center;">
-  <img src="../images/image16.png" style="width: 75%;" />
+  <img src="../../images/image16.png" style="width: 75%;" />
 </div>
 
 - Simple assets are suited to static models in an outdoor settings –
@@ -109,7 +109,7 @@
 ## Standard
 
 <div style="text-align: center;">
-  <img src="../images/image17.png" style="width: 75%;" />
+  <img src="../../images/image17.png" style="width: 75%;" />
 </div>
 
 - Standard assets overall are cars, boats, helicopters and bikes. They are approximately 1500 tris to 3000 tris maximum.
@@ -140,7 +140,7 @@
 ## Complex
 
 <div style="text-align: center;">
-  <img src="../images/image18.png" style="width: 75%;" />
+  <img src="../../images/image18.png" style="width: 75%;" />
 </div>
 
 - Complex assets are vehiclesthat have a lot additional pieces that cannot be faked easily with normals or colours. Think of diggers, trucks and cranes. They are approximately 3000 tris to 4500 tris maximum.
@@ -175,7 +175,7 @@
   approximate with and build with less where possible.
 
 <div style="text-align: center;">
-  <img src="../images/image19.png" style="width: 75%;" />
+  <img src="../../images/image19.png" style="width: 75%;" />
 </div>
 
 

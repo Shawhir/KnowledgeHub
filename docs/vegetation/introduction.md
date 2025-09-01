@@ -1,19 +1,10 @@
-
 <h1 style="font-size: 0.8rem; margin-bottom: -0.3rem;">Esri R&D Center Zurich</h1>
-<h2 style="font-size: 2.5rem; margin-top: 0;">GLTF Manifesto</h2>
+<h2 style="font-size: 2.5rem; margin-top: 0;">Trees and Vegetation</h2>
+<h2 style="font-size: 2.5rem; margin-top: -2rem;">LOD System Manual for glTF</h2>
 
-<iframe width="960" height="540"
-        src="https://www.youtube.com/embed/KBeHmuRAJ7I"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-</iframe>
-
-Author: Mark Quinn – (mar11366@esri.com)
-
-Reviews: David Koerner, Veronika Landers & Pascal Muller
-
-Version: 2022.0
+<h1 style="font-size: 0.8rem; margin-bottom: -0.1rem;">Author: Mark Quinn – (mar11366@esri.com)</h1>
+<h1 style="font-size: 0.8rem; margin-bottom: -0.1rem;">Reviews: Luis Gisler</h1>
+<h1 style="font-size: 0.8rem; margin-bottom: -0.1rem;">Version: 2024.1 DRAFT</h1>
 
 # Introduction
 
