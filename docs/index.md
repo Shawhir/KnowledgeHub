@@ -18,7 +18,7 @@
     
     _Standards for formats, LODs, materials._
     
-    [:octicons-arrow-right-24: Open](gltf/introduction){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Open](gltf/introduction.md){ .md-button .md-button--primary }
 
 -   :material-tree:{ .hub-icon }
     **Trees & Vegetation Manual**
@@ -27,7 +27,7 @@
     
     _Authoring, metadata, and QA._
     
-    [:octicons-arrow-right-24: Open](vegetation/introduction){ .md-button }
+    [:octicons-arrow-right-24: Open](vegetation/introduction.md){ .md-button }
 
 -   :material-palette-swatch:{ .hub-icon }
     **Flexi Textures (FXT)**
@@ -36,7 +36,7 @@
     
     _Tintable, variant-ready materials (WIP)._
     
-    [:octicons-arrow-right-24: Open](materials/flexi_textures){ .md-button }
+    [:octicons-arrow-right-24: Open](materials/flexi_textures.md){ .md-button }
 
 -   :material-clipboard-check-outline:{ .hub-icon }
     **Textures QA**
@@ -45,6 +45,6 @@
     
     _Checklist & validation for PBR materials (WIP)._
     
-    [:octicons-arrow-right-24: Open](materials/qa_materials){ .md-button }
+    [:octicons-arrow-right-24: Open](materials/qa_materials.md){ .md-button }
 
 </div>
