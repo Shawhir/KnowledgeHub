@@ -71,11 +71,4 @@ nav:
       - Material and Group names: vegetation/materials_and_group_names.md
       - Animation (Beta): vegetation/animation.md
       - Texture Files: vegetation/texture_files.md
-      - Level Of Detail (LOD): vegetation/level_of_detail.md
-      - LOD System Creation: vegetation/lod_system_creation.md
-      - Directory structure example: vegetation/directory_structure_example.md
-      - Repository structure example: vegetation/repository_structure_example.md
-      - Leaves Optimisation: vegetation/leaves_optimisation.md
-      - Optimising The Trunk: vegetation/optimising_the_trunk.md
-      - Preparing The Billboards: vegetation/preparing_the_billboards.md
-      - Optimising glTF For The Web: vegetation/optimising_gltf_for_the_web.md
+
