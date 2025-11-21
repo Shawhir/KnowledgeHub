@@ -61,6 +61,13 @@ nav:
       - Repository Structure: gltf/repository_structure_example.md
       - Bits and Pieces: gltf/bits_and_pieces.md
 
+  - Textures QA:
+      - Overview: textures_qa/introduction.md
+      - Directory Structure: textures_qa/directory_structure.md
+      - File Requirements: textures_qa/file_requirements.md
+      - Naming Conventions: textures_qa/naming_conventions.md
+      - Texture Sizing: textures_qa/texture_sizing.md
+
   - Trees & Vegetation:
       - Overview: vegetation/introduction.md
       - Asset structure: vegetation/asset_structure.md
@@ -71,6 +78,8 @@ nav:
       - Material and Group names: vegetation/materials_and_group_names.md
       - Animation (Beta): vegetation/animation.md
       - Texture Files: vegetation/texture_files.md
+
+
 
   - Tutorials:
       - Overview: tutorials/index.md

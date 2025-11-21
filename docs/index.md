@@ -29,14 +29,14 @@
     
     [:octicons-arrow-right-24: Open](vegetation/introduction.md){ .md-button }
 
--   :material-palette-swatch:{ .hub-icon }
-    **Flexi Textures (FXT)**
+-   :material-format-list-bulleted:{ .hub-icon }
+    **Naming Standards**
     
     ---
     
-    _Tintable, variant-ready materials (WIP)._
+    _Centralised naming rules for assets, textures, LODs, and directories._
     
-    [:octicons-arrow-right-24: Open](materials/flexi_textures.md){ .md-button }
+    [:octicons-arrow-right-24: Open](naming_standards/introduction.md){ .md-button }
 
 -   :material-clipboard-check-outline:{ .hub-icon }
     **Textures QA**
@@ -45,7 +45,7 @@
     
     _Checklist & validation for PBR materials (WIP)._
     
-    [:octicons-arrow-right-24: Open](materials/qa_materials.md){ .md-button }
+    [:octicons-arrow-right-24: Open](textures_qa/introduction.md){ .md-button }
 
 -   :material-school-outline:{ .hub-icon }
     **Tutorials**
