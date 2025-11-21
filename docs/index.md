@@ -47,4 +47,13 @@
     
     [:octicons-arrow-right-24: Open](materials/qa_materials.md){ .md-button }
 
+-   :material-school-outline:{ .hub-icon }
+    **Tutorials**
+    
+    ---
+    
+    _Hands-on cleanup and authoring workflows._
+    
+    [:octicons-arrow-right-24: Open](tutorials/index.md){ .md-button }
+
 </div>

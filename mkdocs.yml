@@ -72,3 +72,6 @@ nav:
       - Animation (Beta): vegetation/animation.md
       - Texture Files: vegetation/texture_files.md
 
+  - Tutorials:
+      - Overview: tutorials/index.md
+      - Blender Scene Cleanup (Pompeii Example): tutorials/blender_scene_cleanup.md
