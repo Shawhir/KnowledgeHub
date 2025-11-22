@@ -21,14 +21,14 @@ Lets start with some quick tips to help to give better control over the scene.
 First, one of the best tools for navigation is the **Frame Selected** tool.  
 It can be found in:
 
-**View → Frame Selected**
+**View > Frame Selected**
 
 This will focus the area you currently have selected.  
 For this WIP demo, the menu method is used instead of shortcuts.
 
 ### Enable Statistics Overlay
 
-In **Viewport → Overlays**, you will find a useful option called **Statistics**.  
+In **Viewport > Overlays**, you will find a useful option called **Statistics**.  
 Toggling it on gives you access to mesh counts and other useful data.
 
 ### Scene Collection Overview
@@ -47,7 +47,7 @@ For this tutorial, we will focus on **Reconstruction** and keep **Objects** hidd
 ### Sub-Objects and Data Structure
 
 As seen in this project, **Reconstruction** contains many sub-objects used to make up the Temple.  
-This is useful for controlling the data cleanly — better than having everything packed into one single mesh.
+This is useful for controlling the data cleanly - better than having everything packed into one single mesh.
 
 ---
 ## Identifying and Removing Z-Fighting
@@ -75,12 +75,12 @@ Keep an eye on **Scene Collection** and continue hiding or deleting until all is
 
 ### Orphaned LOD Tiers
 
-In this scene, it appears there are duplicates or orphaned LOD tiers that are not z-fighting because they are slightly offset. Go through each sub-asset, hiding as you go and treating the process like a game — seeing how many you can safely delete.
+In this scene, it appears there are duplicates or orphaned LOD tiers that are not z-fighting because they are slightly offset. Go through each sub-asset, hiding as you go and treating the process like a game - seeing how many you can safely delete.
 
 ### Verify Before Continuing
 
 Press **Alt + H** to unhide all objects.  
-Switch back to **Viewport Shading Mode → Material Preview**.
+Switch back to **Viewport Shading Mode > Material Preview**.
 
 You should see **no visual difference**, but already have a **lower triangle count**.
 
@@ -92,7 +92,7 @@ Now the biggest culprit for file sizes are **textures**. This scene has a substa
 
 Here we will use a script to shrink all textures to **1K resolution**.
 
-### Texture Shrink Script (Paste in Scripting → New)
+### Texture Shrink Script (Paste in Scripting > New)
 
 ```python
 import bpy
@@ -161,8 +161,8 @@ Delete any empty nodes in Scene Collection you don’t need and name your mesh n
 
 Selecting the combined mesh:
 
-1. Press **Shift + S → Cursor to World Origin**  
-2. Then **Object → Set Origin → Origin to 3D Cursor**  
+1. Press **Shift + S > Cursor to World Origin**  
+2. Then **Object > Set Origin > Origin to 3D Cursor**  
 
 This will set the pivot at **0,0,0** in world space.
 
@@ -174,7 +174,7 @@ Now final step, export this out as a **glb**.
 - Deselect any unused export factors  
 - Change material images to **JPEG** to help lower file size  
 
-You should now see a bigger difference in file size — down to around **25 MB**.
+You should now see a bigger difference in file size - down to around **25 MB**.
 
 ## Final Check
 
