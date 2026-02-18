@@ -31,6 +31,8 @@ This post mortem explores the pipelines involved to make these visuals successfu
 
 ## Birds Eye View
 
+![](../../images/image72.png){width="100%"}
+
 Using CityEngine's GetMapData, a small area of parcels around Brooklyn and Manhattan was used to make the urban skyline. The night scene needed a style that is simple and lower poly but shows off the city skyline appropriately. It was decided to go for something graphically similar to a skyline without swamping the user with detail. All surface elements were removed except for simple emissive texture maps to represent windows, longer and shorter, darker and brighter, with a view to randomise these on the facades in CGA.
 
 ### CGA Rule
