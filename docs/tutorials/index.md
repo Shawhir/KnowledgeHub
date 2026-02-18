@@ -25,4 +25,21 @@ and remains compatible with Esri’s glTF standards.
 
 ---
 
+### 2. Cities at Night (OSM Data → Stylised Night Cityscape → Web Scene)
+
+**Goal:**  
+Take OSM parcel data for a real urban area, generate a stylised low-poly night cityscape in CityEngine using procedural CGA rules and emissive materials, and publish it as a performant Web Scene using the Glow effect.
+
+**What you'll learn:**
+
+- How to structure a CGA rule to drive building height from OSM attributes with fallback logic  
+- How to use probabilistic material assignment and UV randomisation to break facade repetition  
+- How to identify and resolve z-fighting caused by overlapping shapes using Python scripting in CE  
+- How to balance emissive texture file size against visual quality for Web performance  
+- How the Glow effect can be applied meaningfully across different viewing scales  
+
+→ [Open the tutorial](cities_at_night.md)
+
+---
+
 More tutorials will be added over time (e.g. basic Blender→glTF export, SpeedTree QA workflows, Flexi Textures authoring, etc.).

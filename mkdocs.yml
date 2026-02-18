@@ -1,6 +1,5 @@
 site_name: 3D Visual Standards Hub
 site_url: https://shawhir.github.io/KnowledgeHub/
-
 theme:
   name: material
   features:
@@ -9,7 +8,6 @@ theme:
     - navigation.prune
     # (omit navigation.sections)
     - toc.integrate   # optional
-
   palette:
     - scheme: default
       primary: blue
@@ -23,7 +21,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -34,14 +31,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 extra_css:
   - stylesheets/extra.css
-
 # optional but nice to keep, it's on by default
 plugins:
   - search
-
 nav:
   - Home: index.md
   - GLTF Manifesto:
@@ -60,14 +54,12 @@ nav:
       - Directory Structure: gltf/directory_structure_example.md
       - Repository Structure: gltf/repository_structure_example.md
       - Bits and Pieces: gltf/bits_and_pieces.md
-
   - Textures QA:
       - Overview: textures_qa/introduction.md
       - Directory Structure: textures_qa/directory_structure.md
       - File Requirements: textures_qa/file_requirements.md
       - Naming Conventions: textures_qa/naming_conventions.md
       - Texture Sizing: textures_qa/texture_sizing.md
-
   - Trees & Vegetation:
       - Overview: vegetation/introduction.md
       - Asset structure: vegetation/asset_structure.md
@@ -78,9 +70,7 @@ nav:
       - Material and Group names: vegetation/materials_and_group_names.md
       - Animation (Beta): vegetation/animation.md
       - Texture Files: vegetation/texture_files.md
-
-
-
   - Tutorials:
       - Overview: tutorials/index.md
       - Blender Scene Cleanup (Pompeii Example): tutorials/blender_scene_cleanup.md
+      - Cities at Night: tutorials/cities_at_night.md
