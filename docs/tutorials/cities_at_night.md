@@ -1,4 +1,4 @@
-# Cities at Night
+# Making Of Cities at Night
 
 ![](../../images/image71.png){width="100%"}
 
@@ -25,7 +25,7 @@ Cities at Night is a living demo that shows how Emissions and the newly added Gl
 
 ## Pipeline Overview
 
-This post mortem explores the pipelines involved to make these visuals successful. For clarity, they are broken down into two sections, **Birds Eye View** and **Street View**, as their approaches, though linked, were done very differently.
+This *making of* explores the pipelines involved to make these visuals successful. For clarity, they are broken down into two sections, **Birds Eye View** and **Street View**, as their approaches, though linked, were done very differently.
 
 ---
 

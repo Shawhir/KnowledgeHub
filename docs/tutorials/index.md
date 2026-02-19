@@ -25,7 +25,7 @@ and remains compatible with Esri’s glTF standards.
 
 ---
 
-### 2. Cities at Night (OSM Data → Stylised Night Cityscape → Web Scene)
+### 2. Making Of Cities at Night (OSM Data → Stylised Night Cityscape → Web Scene)
 
 **Goal:**  
 Take OSM parcel data for a real urban area, generate a stylised low-poly night cityscape in CityEngine using procedural CGA rules and emissive materials, and publish it as a performant Web Scene using the Glow effect.

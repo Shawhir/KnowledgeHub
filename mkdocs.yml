@@ -70,7 +70,8 @@ nav:
       - Material and Group names: vegetation/materials_and_group_names.md
       - Animation (Beta): vegetation/animation.md
       - Texture Files: vegetation/texture_files.md
+      - ABC Testing: vegetation/abc_testing.md
   - Tutorials:
       - Overview: tutorials/index.md
       - Blender Scene Cleanup (Pompeii Example): tutorials/blender_scene_cleanup.md
-      - Cities at Night: tutorials/cities_at_night.md
+      - Making Of Cities at Night: tutorials/cities_at_night.md
